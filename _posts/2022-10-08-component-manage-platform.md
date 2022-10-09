@@ -1,16 +1,19 @@
 ---
 layout: article
 title: "Component manage platform introduction"
-author: Billy Rick
+author: Tom Liu
 date: 2022-10-08 14:34:46 +0800
 tags:  "Applicatons"
 categories: ["Applicatons", "Projets"]
 ---
 
+目前 App 开发一组负责迭代和维护的 App 项目共计有 19 个,内部组件大概60个.业务高速增长时迭代和维护的过程中,忽略了对项目依赖的管理.
 
-## Background
-  
-目前 App 开发一组负责迭代和维护的 App 项目共计有 19 个,内部组件大概60个.业务高速增长时迭代和维护的过程中,忽略了对项目依赖的管理.在改进过程中我们需要准确的了解各个项目的依赖情况,逐步对某些指标进行持续跟进和验收:
+<!--more-->
+
+---
+
+在改进过程中我们需要准确的了解各个项目的依赖情况,逐步对某些指标进行持续跟进和验收:
 
 - 方便查看具体 App 的所有依赖,依赖名,版本,源码地址等,及时汰换有风险的组件版本
 - 方便查看各个 App 对关键组件的接入情况,推进组件话进程
