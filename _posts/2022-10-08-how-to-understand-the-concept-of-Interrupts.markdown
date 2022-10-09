@@ -1,8 +1,8 @@
 ---
 title: "How to understand the Interrupts ?"
-layout: post
+layout: article
 date: 2022-10-08 14:07:19 +0800
-tags: ["Operating System Concepts", "classic books"]
+tag: ["Operating System Concepts", "classic books"]
 categories: ["Low-level basics", "Assembly Language"]
 ---
 
