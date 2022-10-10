@@ -2,7 +2,7 @@
 title: "如何使用Cocoapods管理组件"
 layout: article
 author: Tom Liu
-date: 2019-04-15 14:07:19 +0800
+date: 2020-11-10 14:07:19 +0800
 tag: ["cocoapods", "best practice"]
 categories: ["Develop Tools"]
 ---
