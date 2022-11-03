@@ -107,11 +107,11 @@ Vue 2.x、Element-UI
 - `dependency`实体属性来自于`yk_command`依赖`cocoapods-core`得到的依赖数据筛选过后的字段,主键随机生成.
     - `dependency` 实体会持有一个数组,用于存储其使用者的`gitlab_id`,在`DependencyService().addDependency`调用之后进行更行
 
-![业务对象关系图](/assets/2022-10-08-component-manage-platform/object_relationship.jpg)
+![业务对象关系图](/assets/2022-10-08-component-manage-platform/object_relationship.jpeg)
 
 结果上报,每天下午的6点,打包机上的Jenkins会执行定时任务,在打包跟目录下,调用 `yk_command dependency_analyze ` 变了所有项目批量分析,批量入库所有App得依赖信息.将任务执行结果发送到微信群.
 
-![每日直行结果](/assets/2022-10-08-component-manage-platform/result_report.jpg)
+![每日直行结果](/assets/2022-10-08-component-manage-platform/result_report.jpeg)
 
 
 
@@ -120,27 +120,27 @@ Vue 2.x、Element-UI
 这个页面展示技术中心参与维护的全部应用,分别展示项目的名称,描述,贡献者,活跃时间.
 在组件化的持续推进中,我们最优先关注的是组件数量和内部组件的依赖数量.
 
-![应用列表](/assets/2022-10-08-component-manage-platform/app_list.jpg)
+![应用列表](/assets/2022-10-08-component-manage-platform/app_list.jpeg)
 
 展示某个App所有的依赖.
 
 在App列表的选择任意一项App,点击操作区域的查看依赖详情,就能查看此App所使用的所有依赖信息.
 我们主要关注某个依赖的版本和其集成方式,在验收某个组件的接入情况时,也能快速跳转到gitlab代码仓库查看组件的源码和配置文件内容.
 
-![应用依赖详情列表](/assets/2022-10-08-component-manage-platform/app_deps_list.jpg)
+![应用依赖详情列表](/assets/2022-10-08-component-manage-platform/app_deps_list.jpeg)
 
 公司内部组件列表.
 
 目前公司的自研组件已经达到60+(图中数据57为旧版本),在这里可以做一个统一展示.作为管理者目前最关注的是组件分类数据,各个类别下的组件数量,以及其接入率.
 作为组件的开发者,我们最关注的是组件被多少个项目所依赖,以及被哪些项目所依赖
 
-![组件列表](/assets/2022-10-08-component-manage-platform/component_list.jpg)
+![组件列表](/assets/2022-10-08-component-manage-platform/component_list.jpeg)
 
 全部项目使用到的的所有三方库,含内部组件.
 
 这个列表展示了所有的App的全部依赖信息,通过对组件名字的筛选排序,我们能够看到同一个组件的不同版本分布,能够尽快提示使用方注意更新,对于外部的组件,我们可以跳转到其仓库查看是否有潜在的bug和活跃程度,有风险的情况为下我们会尽快推进汰换.
 
-![全部依赖列表](/assets/2022-10-08-component-manage-platform/all_deps_list.jpg)
+![全部依赖列表](/assets/2022-10-08-component-manage-platform/all_deps_list.jpeg)
 
 ## 后续迭代
 ### v1.1
@@ -173,7 +173,7 @@ Vue 2.x、Element-UI
 
 客户端组件发布和上报运行实例
 
-![运行实例](/assets/2022-10-08-component-manage-platform/repo_push_cli_case.jpg)
+![运行实例](/assets/2022-10-08-component-manage-platform/repo_push_cli_case.jpeg)
 
 ## 预期评价
 

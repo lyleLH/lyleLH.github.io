@@ -1,0 +1,16 @@
+---
+title: "Some useful tools"
+layout: article
+author: Tom Liu
+date: 2022-10-11 14:07:19 +0800
+tag: ["chart"]
+categories: ["tools"]
+---
+
+<!--more-->
+
+---
+
+[generate a chart quickly](https://linegraphmaker.co/)
+
+
