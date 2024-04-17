@@ -4,6 +4,13 @@ source "https://rubygems.org"
 
 gemspec
 
+gem 'jekyll-compose', group: [:jekyll_plugins]
+
+gem 'jekyll-feed', group: [:jekyll_plugins]
+gem 'jekyll-paginate', group: [:jekyll_plugins]
+gem 'jekyll-sitemap', group: [:jekyll_plugins]
+gem 'jemoji', group: [:jekyll_plugins]
+
 group :test do
   gem "html-proofer", "~> 3.18"
 end
