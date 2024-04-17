@@ -17,9 +17,6 @@ categories: ["Low-level basics", "Assembly Language"]
 
 - Hardware,Controller,Driver
 
-
 ## How these roles work?
 
 in time sequence.
-
-

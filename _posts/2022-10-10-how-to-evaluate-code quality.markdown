@@ -20,9 +20,6 @@ categories: ["engineering"]
 
 - Hardware,Controller,Driver
 
-
 ## How these roles work?
 
 in time sequence.
-
-

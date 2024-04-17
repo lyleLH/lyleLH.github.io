@@ -12,18 +12,15 @@ categories: ["Flutter Application"]
 
 两者比较之下，显然作为业务开发人员，我们在紧张的业务迭代中，应该可以做一点点微小的努力来提升代码质量。
 
-
 <!--more-->
 
 ---
-
 
 ### 目录结构
 
 这里处理的对象是工程的代码和资源文件
 
-
-```
+```shell
 .
 ├── events              // 事件
 ├── models              // 模型
@@ -81,7 +78,7 @@ categories: ["Flutter Application"]
 
 e.g.
 
-```
+```shell
 ic_launcher.png
 ic_menu_share.png
 ic_menu_back.png
@@ -155,6 +152,6 @@ ic_tab_mine.png
 
 #### 相关链接
 
-- https://flutter.dev/docs/development/tools/formatting
-- https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo
-- https://dart.dev/guides/language/effective-dart/style
+- <https://flutter.dev/docs/development/tools/formatting>
+- <https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo>
+- <https://dart.dev/guides/language/effective-dart/style>

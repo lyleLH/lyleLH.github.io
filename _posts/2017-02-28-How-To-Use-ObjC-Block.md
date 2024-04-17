@@ -41,7 +41,8 @@ int (^addOperationBlock)(int a, int b)
 
 - Block 定义好了之后，可以像函数那样使用它
 
-  ```
+  ```objc
+
   //Block的定义
   int (^addBlcok)(int a,int b) = ^(int a,int b){
     return a + b ;
@@ -201,7 +202,8 @@ typedef void(^LHNetResponseBlock)(NSDictionary *response) ;
 
 `LHLoginModel.m`
 
-```
+```objc
+
 #import "LHLoginModel.h"
 
 @implementation LHLoginModel
@@ -219,11 +221,10 @@ typedef void(^LHNetResponseBlock)(NSDictionary *response) ;
 
 @end
 
-```
+```objc
 
 `ViewController.m`
 
-```
 #import "ViewController.h"
 #import "LHLoginModel.h"
 

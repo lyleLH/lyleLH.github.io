@@ -12,5 +12,3 @@ categories: ["tools"]
 ---
 
 [generate a chart quickly](https://linegraphmaker.co/)
-
-

@@ -14,18 +14,15 @@ categories: ["ObjC"]
 
 ---
 
-
 ## 目的和基础
 
 目的是看懂`Objective-C`对象和类的定义的数据结构表示
 
-
 ### 几点基础知识
+
 - C 语言的结构体的表示，`typedef` 语义的作用，结构体指针
 - 一个 Objective-C 类的表示，C 语言的结构体和 Object-C 类的表达差异
 - C 和 OC 从语言类型上分类的一些差异主要来自runtime特性
-      
-****
 
 ## C 语言结构体
 
@@ -37,14 +34,13 @@ categories: ["ObjC"]
 >
 >简单的说：结构体是聚合了一系列数据的数据结构
 
-
 结构体的定义如下:
 
-```
+```c
  struct tag { member-list } variable-list ; 
 ```
 
-- `struct` 为结构体关键字 
+- `struct` 为结构体关键字
 
 - `tag` 为结构体的标识,也叫**结构名**
 
@@ -53,20 +49,15 @@ categories: ["ObjC"]
 - `variable-list`为结构体声明的变量（此处的“声明”是一个动词）
 - 结构体声明的末尾要加上分号
 
-
-
-
 在一般情况下，`tag`、`member-list`、`variable-list`这3部分至少要出现2个
 
-
 结构体作为 C 语言的一种**聚合数据类型**(`aggregate data type`)，一般都会拥有成员变量(`member-lis`)，所以下面只举出两例如下：
-
 
 ### 例子1
 
 这个结构体并没有标明其标签（缺少`tag`）
 
-```
+```c
 struct 
 {
     int a;
@@ -79,7 +70,7 @@ struct
 
 结构体的`tag`被命名为`SIMPLE`,没有接着用来**声明变量**（`variable-list`）
 
-```
+```c
 struct SIMPLE
 {
     int a;
@@ -88,9 +79,10 @@ struct SIMPLE
 };
 
 ```
+
 使用这种结构体用来声明变量的方式如下：
 
-```
+```c
 struct SIMPLE simple1;
 struct SIMPLE simple2;
 
@@ -100,7 +92,7 @@ struct SIMPLE simple2;
 
 对结构体变量的成员变量的方位使用`.运算符`以上面定义的 `struct SIMPLE`类型的对象为例子：
 
-```
+```c
 struct SIMPLE simple1;
 simple1.a = 100;
 simple1.b = 100;
@@ -110,7 +102,7 @@ simple1.c = 0.5;
 
 ### 结构体变量的成员变量的访问二（箭头运算符）
 
-```
+```c
 //定义一个结构体
 struct gstudent {
     char name[20];
@@ -143,32 +135,36 @@ int main(int argc, const char * argv[]) {
 }
 
 ```
+
 例子中
 
-```
+```c
 student->height = height;
 ```
+
 这一句是一种简写，因为涉及到对对象存储的值的修改所以要用到指针
 
 所以函数:
-```
+
+```c
 void changeStudentHeight (struct gstudent * student,int height)
 ```
+
 接受的参数有一个结构体指针
 
 因而在函数内访问结构体对象的成员的值的时候需要这么做：
 
-```
+```c
 (* student).height = height;
 ```
+
 简写为:
-```
+
+```c
 student->height = height;
 ```
 
-
 **相信以上用`->` 访问结构体成员的方式各位iOS开发人员会有印象，后面会讲到**
-
 
 ## 结合typedef
 
@@ -177,9 +173,9 @@ student->height = height;
 >简单的解释就是`typedef`声明可以给原有的数据类型定义“同义词”，他的作用等同于数据类型名称
 >
 
-### 有效利用`typedef`声明简化冗长的写法:
+### 有效利用`typedef`声明简化冗长的写法
 
-```
+```c
 struct gstudent {
     char name[20];
     int age;
@@ -210,6 +206,4 @@ int main(int argc, const char * argv[]) {
 
 ```
 
-***
 参考：维基百科、《明解C语言》
-

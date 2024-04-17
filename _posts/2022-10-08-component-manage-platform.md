@@ -107,7 +107,7 @@ Vue 2.x、Element-UI
 
 ![业务对象关系图](/assets/2022-10-08-component-manage-platform/object_relationship.jpeg)
 
-结果上报,每天下午的 6 点,打包机上的 Jenkins 会执行定时任务,在打包跟目录下,调用 `yk_command dependency_analyze ` 变了所有项目批量分析,批量入库所有 App 得依赖信息.将任务执行结果发送到微信群.
+结果上报,每天下午的 6 点,打包机上的 Jenkins 会执行定时任务,在打包跟目录下,调用 `yk_command dependency_analyze` 变了所有项目批量分析,批量入库所有 App 得依赖信息.将任务执行结果发送到微信群.
 
 ![每日直行结果](/assets/2022-10-08-component-manage-platform/result_report.jpeg)
 
