@@ -3,7 +3,7 @@ layout: post
 title: Fullstack Development with React
 date: 2023-03-08 13:16 +0800
 
-layout: article
+layout: post
 author: Tom Liu
 
 tag: ["Basic Concepts", "Language", "React","Fullstack"]

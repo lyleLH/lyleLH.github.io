@@ -1,6 +1,6 @@
 ---
 title: "How to understand the Interrupts ?"
-layout: article
+layout: post
 author: Tom Liu
 date: 2022-10-08 14:07:19 +0800
 tag: ["Operating System Concepts", "classic books"]

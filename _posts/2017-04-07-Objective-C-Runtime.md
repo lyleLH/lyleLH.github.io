@@ -1,6 +1,6 @@
 ---
 title: "Objective-C Runtime"
-layout: article
+layout: post
 author: Tom Liu
 date: 2017-04-07 14:07:19 +0800
 tag: ["Basic Concepts"]

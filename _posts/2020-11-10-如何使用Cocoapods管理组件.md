@@ -1,6 +1,6 @@
 ---
 title: "Cocoapods管理组件实际操作演示"
-layout: article
+layout: post
 author: Tom Liu
 date: 2020-11-10 14:07:19 +0800
 tag: ["cocoapods", "best practice"]

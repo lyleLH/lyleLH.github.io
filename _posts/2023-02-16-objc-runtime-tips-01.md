@@ -2,7 +2,7 @@
 title: ObjC runtime tips 01
 date: 2023-02-16 13:53 +0800
 
-layout: article
+layout: post
 author: Tom Liu
 
 tag: ["Basic Concepts", "Language", "iOS"]

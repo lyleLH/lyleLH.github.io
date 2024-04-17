@@ -1,6 +1,6 @@
 ---
 title: "如何使用Cocoapods管理组件"
-layout: article
+layout: post
 author: Tom Liu
 date: 2020-11-10 14:07:19 +0800
 tag: ["cocoapods", "best practice"]

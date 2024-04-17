@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Component manage platform introduction"
 author: Tom Liu
 date: 2022-10-08 14:34:46 +0800

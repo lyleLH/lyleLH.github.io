@@ -1,6 +1,6 @@
 ---
 title: "How to evaluate code quality?"
-layout: article
+layout: post
 author: Tom Liu
 date: 2022-10-10 14:07:19 +0800
 tag: ["code quality"]

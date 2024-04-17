@@ -1,6 +1,6 @@
 ---
 title: "Some useful tools"
-layout: article
+layout: post
 author: Tom Liu
 date: 2022-10-11 14:07:19 +0800
 tag: ["chart"]

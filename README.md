@@ -1,8 +1,7 @@
-# lyleLH.github.io
+<div align="center">
 
-how to use a new theme in jekyll?
+  # Jin blog
 
-there is one necessary step to make your project more clean,if you just wanna blogging your text rather to develop it. [here](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#remove-the-unnecessary)
+My personal [blog](https://jinhanlei.github.io/) build with [chirpy](https://github.com/cotes2020/jekyll-theme-chirpy).
 
-
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/13076897/194746728-d1d12b2e-ee62-4343-bb56-d303535789d1.png">
+Welcome to report bugs, help improve the code or submit new features.

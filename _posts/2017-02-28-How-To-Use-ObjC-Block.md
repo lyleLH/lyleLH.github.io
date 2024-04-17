@@ -1,6 +1,6 @@
 ---
 title: "How To Use Objective-C Block?"
-layout: article
+layout: post
 author: Tom Liu
 date: 2017-02-28 14:07:19 +0800
 tag: ["Basic Concepts"]

@@ -1,6 +1,6 @@
 ---
 title: "Flutter project style guide"
-layout: article
+layout: post
 author: Tom Liu
 date: 2021-07-27 14:07:19 +0800
 tag: ["flutter", "best practice"]
