@@ -1,0 +1,498 @@
+{
+    "results": [
+        {
+            "_id": "fC5Jr2NsYm",
+            "author": "Albert Einstein",
+            "content": "Gravitation cannot be held responsible for people falling in love. How on earth can you explain in terms of chemistry and physics so important a biological phenomenon as first love? Put your hand on a stove for a minute and it seems like an hour. Sit with that special girl for an hour and it seems like a minute. That's relativity.",
+            "tags": [
+                "Love",
+                "Science"
+            ],
+            "authorSlug": "albert-einstein",
+            "length": 332,
+            "dateAdded": "2023-04-06",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "5S-INJNFCI",
+            "author": "Aesop",
+            "content": "It is with our passions, as it is with fire and water, they are good servants but bad masters.",
+            "tags": [
+                "Wisdom",
+                "Love"
+            ],
+            "authorSlug": "aesop",
+            "length": 94,
+            "dateAdded": "2023-04-03",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "fEr2kx4_Nvt",
+            "author": "The Buddha",
+            "content": "Hatred is never appeased by hatred in this world. By non-hatred alone is hatred appeased. This is a law eternal.",
+            "tags": [
+                "Wisdom",
+                "Love"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 112,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "0umC2Yk5UX",
+            "author": "The Buddha",
+            "content": "One should train in deeds of merit—generosity, a balanced life, developing a loving mind—that yield long-lasting happiness.",
+            "tags": [
+                "Wisdom",
+                "Happiness"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 123,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "smbfaOldHD",
+            "author": "The Buddha",
+            "content": "A disciplined mind brings happiness.",
+            "tags": [
+                "Wisdom",
+                "Happiness"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 36,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "hcCn5sAnUO",
+            "author": "The Buddha",
+            "content": "Conquer anger with non-anger. Conquer badness with goodness. Conquer meanness with generosity. Conquer dishonesty with truth.",
+            "tags": [
+                "Wisdom",
+                "Virtue",
+                "Love"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 125,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "sLWD2qRCK4",
+            "author": "The Buddha",
+            "content": "Just as a mother would protect her only child with her life, even so let one cultivate a boundless love towards all beings.",
+            "tags": [
+                "Wisdom",
+                "Love"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 123,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "kFmm2Cv0V-",
+            "author": "The Buddha",
+            "content": "It is in the nature of things that joy arises in a person free from remorse.",
+            "tags": [
+                "Wisdom",
+                "Happiness"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 76,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "QLFvxnERU8M",
+            "author": "The Buddha",
+            "content": "Radiate boundless love towards the entire world…",
+            "tags": [
+                "Wisdom",
+                "Love"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 48,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "e0H2BdwC-Of",
+            "author": "The Buddha",
+            "content": "Whatever is not yours: let go of it. Your letting go of it will be for your long-term happiness & benefit.",
+            "tags": [
+                "Wisdom",
+                "Happiness"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 106,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "9sgo4-hjyyq",
+            "author": "The Buddha",
+            "content": "Radiate boundless love towards the entire world — above, below, and across — unhindered, without ill will, without enmity.",
+            "tags": [
+                "Wisdom",
+                "Love"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 122,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "WnJz7QKVKzI",
+            "author": "The Buddha",
+            "content": "The root of suffering is attachment.",
+            "tags": [
+                "Wisdom",
+                "Happiness"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 36,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "UGjIXpUCPv",
+            "author": "The Buddha",
+            "content": "A noble one produces an abundance of merit by having a compassionate mind towards all living beings.",
+            "tags": [
+                "Wisdom",
+                "Love"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 100,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "YLwAq4ekdr",
+            "author": "The Buddha",
+            "content": "If with a pure mind a person speaks or acts, happiness follows them like a never-departing shadow.",
+            "tags": [
+                "Wisdom",
+                "Happiness"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 98,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "6_rYXTe8c4S",
+            "author": "The Buddha",
+            "content": "May all beings have happy minds.",
+            "tags": [
+                "Wisdom",
+                "Happiness"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 32,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "evSH-AgPIXv",
+            "author": "The Buddha",
+            "content": "Both formerly and now, it is only suffering that I describe, and the cessation of suffering.",
+            "tags": [
+                "Wisdom",
+                "Happiness"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 92,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "gI4gnBANili",
+            "author": "The Buddha",
+            "content": "We will develop and cultivate the liberation of mind by lovingkindness, make it our vehicle, make it our basis, stabilize it, exercise ourselves in it, and fully perfect it.",
+            "tags": [
+                "Wisdom",
+                "Love"
+            ],
+            "authorSlug": "the-buddha",
+            "length": 173,
+            "dateAdded": "2023-03-30",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "ErFK0EPOMHJ",
+            "author": "Alan Watts",
+            "content": "So then, the relationship of self to other is the complete realization that loving yourself is impossible without loving everything defined as other than yourself.",
+            "tags": [
+                "Self",
+                "Love"
+            ],
+            "authorSlug": "alan-watts",
+            "length": 163,
+            "dateAdded": "2022-03-12",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "6kd9Qs7YQc",
+            "author": "Abraham Lincoln",
+            "content": "Most folks are as happy as they make up their minds to be.",
+            "tags": [
+                "Happiness"
+            ],
+            "authorSlug": "abraham-lincoln",
+            "length": 58,
+            "dateAdded": "2022-03-12",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "3uAvqPj3dZ",
+            "author": "Alan Watts",
+            "content": "Never pretend to a love which you do not actually feel, for love is not ours to command.",
+            "tags": [
+                "Love"
+            ],
+            "authorSlug": "alan-watts",
+            "length": 88,
+            "dateAdded": "2022-03-12",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "_XB2MKPzW7dA",
+            "content": "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+            "author": "Albert Schweitzer",
+            "tags": [
+                "Famous Quotes",
+                "Success",
+                "Happiness"
+            ],
+            "authorSlug": "albert-schweitzer",
+            "length": 125,
+            "dateAdded": "2021-05-12",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "x6LCvKtrXx",
+            "content": "All love that has not friendship for its base, is like a mansion built upon the sand.",
+            "author": "Ella Wheeler Wilcox",
+            "tags": [
+                "Friendship",
+                "Love"
+            ],
+            "authorSlug": "ella-wheeler-wilcox",
+            "length": 85,
+            "dateAdded": "2021-01-19",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "mRyh-i79x-",
+            "content": "Love is the only force capable of transforming an enemy into a friend.",
+            "author": "Martin Luther King Jr.",
+            "tags": [
+                "Friendship",
+                "Love"
+            ],
+            "authorSlug": "martin-luther-king-jr",
+            "length": 70,
+            "dateAdded": "2021-01-10",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "V8reXkHpukCS",
+            "content": "Success is getting what you want. Happiness is wanting what you get.",
+            "author": "Dale Carnegie",
+            "tags": [
+                "Happiness"
+            ],
+            "authorSlug": "dale-carnegie",
+            "length": 68,
+            "dateAdded": "2021-01-10",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "XmkVP-9blK",
+            "content": "Friendship often ends in love, but love in friendship - never.",
+            "author": "Albert Camus",
+            "tags": [
+                "Friendship",
+                "Love"
+            ],
+            "authorSlug": "albert-camus",
+            "length": 62,
+            "dateAdded": "2020-12-08",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "GGBS9dCAij1v",
+            "content": "The person born with a talent they are meant to use will find their greatest happiness in using it.",
+            "author": "Johann Wolfgang von Goethe",
+            "tags": [
+                "Famous Quotes",
+                "Happiness"
+            ],
+            "authorSlug": "johann-wolfgang-von-goethe",
+            "length": 99,
+            "dateAdded": "2020-10-14",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "fZA1DYvIimJ_",
+            "content": "Most people are about as happy as they make up their minds to be",
+            "author": "Abraham Lincoln",
+            "tags": [
+                "Famous Quotes",
+                "Life",
+                "Wisdom",
+                "Happiness"
+            ],
+            "authorSlug": "abraham-lincoln",
+            "length": 64,
+            "dateAdded": "2020-09-29",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "rypL5kmdIg8",
+            "content": "A really great talent finds its happiness in execution.",
+            "author": "Johann Wolfgang von Goethe",
+            "tags": [
+                "Famous Quotes",
+                "Happiness"
+            ],
+            "authorSlug": "johann-wolfgang-von-goethe",
+            "length": 55,
+            "dateAdded": "2020-07-10",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "dHwWmstTfXUC",
+            "content": "The happiness of a man in this life does not consist in the absence but in the mastery of his passions.",
+            "author": "Alfred Tennyson",
+            "tags": [
+                "Famous Quotes",
+                "Happiness"
+            ],
+            "authorSlug": "alfred-tennyson",
+            "length": 103,
+            "dateAdded": "2020-04-14",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "hhDqMdHw5w",
+            "content": "If there is such a thing as a good marriage, it is because it resembles friendship rather than love.",
+            "author": "Michel de Montaigne",
+            "tags": [
+                "Friendship",
+                "Love"
+            ],
+            "authorSlug": "michel-de-montaigne",
+            "length": 100,
+            "dateAdded": "2020-02-22",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "NZjOnL1Piu",
+            "content": "Love is rarer than genius itself. And friendship is rarer than love.",
+            "author": "Charles Péguy",
+            "tags": [
+                "Friendship",
+                "Love"
+            ],
+            "authorSlug": "charles-peguy",
+            "length": 68,
+            "dateAdded": "2020-01-15",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "gbXrbDRZfzQz",
+            "content": "There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will.",
+            "author": "Epictetus",
+            "tags": [
+                "Happiness"
+            ],
+            "authorSlug": "epictetus",
+            "length": 117,
+            "dateAdded": "2019-10-03",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "fhyB06UQ9hjL",
+            "content": "If you live to be a hundred, I want to live to be a hundred minus one day, so I never have to live without you.",
+            "author": "A. A. Milne",
+            "tags": [
+                "Famous Quotes",
+                "Love"
+            ],
+            "authorSlug": "a-a-milne",
+            "length": 111,
+            "dateAdded": "2019-06-27",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "SDIuXTOSqNz-",
+            "content": "You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.",
+            "author": "Albert Camus",
+            "tags": [
+                "Famous Quotes",
+                "Life",
+                "Happiness"
+            ],
+            "authorSlug": "albert-camus",
+            "length": 145,
+            "dateAdded": "2019-03-24",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "J-47k8g-i",
+            "content": "Love is a friendship set to music.",
+            "author": "Joseph Campbell",
+            "tags": [
+                "Friendship",
+                "Love"
+            ],
+            "authorSlug": "joseph-campbell",
+            "length": 34,
+            "dateAdded": "2019-03-17",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "5UaK7cijxqOE",
+            "content": "Can miles truly separate you from friends... If you want to be with someone you love, aren't you already there?",
+            "author": "Richard Bach",
+            "tags": [
+                "Love",
+                "Friendship"
+            ],
+            "authorSlug": "richard-bach",
+            "length": 111,
+            "dateAdded": "2019-02-13",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "ISX_zfx8abzc",
+            "content": "There is no duty we so underrate as the duty of being happy. By being happy we sow anonymous benefits upon the world.",
+            "author": "Robert Louis Stevenson",
+            "tags": [
+                "Life",
+                "Happiness"
+            ],
+            "authorSlug": "robert-louis-stevenson",
+            "length": 117,
+            "dateAdded": "2019-01-08",
+            "dateModified": "2023-04-14"
+        },
+        {
+            "_id": "DRrFFyFqWhQD",
+            "content": "If you love someone, set them free. If they come back, they're yours; if they don't, they never were.",
+            "author": "Richard Bach",
+            "tags": [
+                "Love"
+            ],
+            "authorSlug": "richard-bach",
+            "length": 101,
+            "dateAdded": "2019-01-08",
+            "dateModified": "2023-04-14"
+        }
+    ]
+}
