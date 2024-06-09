@@ -1104,6 +1104,12 @@ $btn-mb: 0.5rem;
 
 /* --- main wrapper --- */
 
+#main-wrapper-father {
+  background-image: url('/imgs/dot-grid.webp');
+  background-size: auto;
+  background-repeat: repeat;
+}
+
 #main-wrapper {
   background-color: var(--main-bg);
   position: relative;

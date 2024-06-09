@@ -4,7 +4,7 @@
 
 @mixin light-scheme {
   /* Framework color */
-  --main-bg: white;
+  --main-bg: rgba(255, 255, 255, 0);
   --mask-bg: #c1c3c5;
   --main-border-color: #f3f3f3;
 
@@ -36,7 +36,7 @@
   );
 
   /* Sidebar */
-  --sidebar-bg: #f6f8fa;
+  --sidebar-bg: radial-gradient(circle, #0153ab25 10%, #ffffff 100%);
   --sidebar-muted-color: #a2a19f;
   --sidebar-active-color: #1d1d1d;
   --sidebar-hover-bg: rgb(227, 227, 227, 0.64);
