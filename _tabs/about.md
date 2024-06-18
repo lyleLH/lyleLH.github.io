@@ -20,6 +20,12 @@ order: 4
 
 - [965work.com](https://www.965work.com/)
 
+## 我的社区和群组
+
+- [Reddit - r/npmrun](https://www.reddit.com/r/npmrun/)
+
+- [Discord - NpmRun](https://discord.gg/4HjY6PPa)
+
 ## 我的小工具
 
 - [wechat-format](https://lylelh.github.io/wechat-format/): 微信公众号排版工具, 将 markdown文档转环为 公众号排版的内容
