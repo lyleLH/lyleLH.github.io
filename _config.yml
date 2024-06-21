@@ -206,3 +206,67 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+
+
+
+links_left:
+  - title: 友链名称1
+    url: https://example.com/link1
+    description: 这是友链1的描述。
+    avatar: https://blog.03k.org/favicon.ico
+  - title: 友链名称2
+    url: https://example.com/link2
+    description: 这是友链2的描述。
+    avatar: https://blog.03k.org/favicon.ico
+  - title: 友链名称1
+    url: https://example.com/link1
+    description: 这是友链1的描述。
+    avatar: https://blog.03k.org/favicon.ico
+  - title: 友链名称2
+    url: https://example.com/link2
+    description: 这是友链2的描述。
+    avatar: https://blog.03k.org/favicon.ico
+  - title: 友链名称1
+    url: https://example.com/link1
+    description: 这是友链1的描述。
+    avatar: https://blog.03k.org/favicon.ico
+  - title: 友链名称2
+    url: https://example.com/link2
+    description: 这是友链2的描述。
+    avatar: https://blog.03k.org/favicon.ico
+  - title: 友链名称1
+    url: https://example.com/link1
+    description: 这是友链1的描述。
+    avatar: https://blog.03k.org/favicon.ico
+  - title: 友链名称2
+    url: https://example.com/link2
+    description: 这是友链2的描述。
+    avatar: https://blog.03k.org/favicon.ico
+  - title: 友链名称1
+    url: https://example.com/link1
+    description: 这是友链1的描述。
+    avatar: https://blog.03k.org/favicon.ico
+  - title: 友链名称2
+    url: https://example.com/link2
+    description: 这是友链2的描述。
+    avatar: https://blog.03k.org/favicon.ico
+  - title: 友链名称1
+    url: https://example.com/link1
+    description: 这是友链1的描述。
+    avatar: https://blog.03k.org/favicon.ico
+  - title: 友链名称2
+    url: https://example.com/link2
+    description: 这是友链2的描述。
+    avatar: https://blog.03k.org/favicon.ico
+
+links_right:
+  - title: 友链名称3
+    url: https://example.com/link3
+    description: 这是友链3的描述。
+    avatar: https://blog.03k.org/favicon.ico
+  - title: 友链名称4
+    url: https://example.com/link4
+    description: 这是友链4的描述。
+    avatar: https://blog.03k.org/favicon.ico
+
+ 
