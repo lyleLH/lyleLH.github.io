@@ -9,6 +9,7 @@ module Jekyll
       quotes = fetch_quote(plugin_dir)
       quote = quotes['results'][0]
       "#{quote['content']} - #{quote['author']}"
+      
     end
 
     private
