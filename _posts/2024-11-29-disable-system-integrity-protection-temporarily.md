@@ -6,7 +6,7 @@ categories: ["Device Log"]
 tag: ["MacOS"]
 ---
 
-
+![issues](/assets/img/Screenshot%202024-11-28%20at%204.36.40 PM.png)
 
 System Integrity Protection (SIP) is a kernel protection mechanism designed to prevent malicious tampering with the system kernel programs. 
 
