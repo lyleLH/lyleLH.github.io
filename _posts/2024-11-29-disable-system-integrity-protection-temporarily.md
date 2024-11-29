@@ -2,6 +2,8 @@
 layout: post
 title: Disable System Integrity Protection Temporarily
 date: 2024-11-29 07:55 +0800
+categories: ["Device Log"]
+tag: ["MacOS"]
 ---
 
 
