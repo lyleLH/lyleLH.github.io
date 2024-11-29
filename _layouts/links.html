@@ -1,88 +1,151 @@
 ---
 layout: page
-title: 友情链接
-refactor: true
 ---
 
-{% include lang.html %}
-
 <style>
-.card {
+.links-container {
   display: flex;
-  align-items: left;
-  margin-bottom: 15px;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.links-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.links-column h2 {
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.link-card {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: var(--card-bg);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.1); /* 半透明背景颜色 */
-  border-radius: 8px;
-  border-color: transparent;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  height: 66px; /* 限制卡片高度 */
-  overflow: hidden; /* 确保内容不溢出 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
-.card-avatar {
-  flex-shrink: 0;
-  width: 50px;
-  height: 50px;
+.link-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--link-color);
+}
+
+.link-card:hover .link-avatar {
+  transform: scale(1.05);
+  box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.15),
+    0 8px 16px rgba(0, 0, 0, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+}
+
+.link-avatar {
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
-  margin-left: 10px;
-  margin-right: 15px;
+  margin-right: 1rem;
   object-fit: cover;
+  transition: transform 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 
+    0 2px 4px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.05),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.1);
 }
 
-.card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  overflow: hidden; /* 确保内容不溢出 */
-  flex-grow: 1; /* 使其填满剩余空间 */
-  color: red;  
-
+.link-info {
+  flex: 1;
+  overflow: hidden;
 }
 
-.card-title {
+.link-info a {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--link-color);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.link-info a:hover {
+  color: var(--link-hover-color);
+}
+
+.link-info .link-description {
   margin: 0;
-  font-size: 1.25em;
-  color: #ffffff;  
-  white-space: nowrap;  
+  font-size: 0.9rem;
+  color: var(--text-muted-color);
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  line-height: 1.4;
 }
 
-.card-text {
-  margin: 5px 0 0;
-  color: #cccccc;  
-  font-size: 0.9em;
-  white-space: nowrap; 
-  overflow: hidden;
-  text-overflow: ellipsis;
+@media (max-width: 768px) {
+  .links-container {
+    gap: 1rem;
+  }
+  
+  .links-column {
+    min-width: 100%;
+  }
+  
+  .link-card {
+    padding: 0.8rem;
+  }
+  
+  .link-avatar {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .link-info a {
+    font-size: 1rem;
+  }
+  
+  .link-info .link-description {
+    font-size: 0.85rem;
+  }
 }
 </style>
 
-<div class="row">
-  <!-- Left Column -->
-  <div class="col-md-6">
+<div class="links-container">
+  <div class="links-column left">
+    <h2>推荐链接</h2>
     {% for link in site.links_left %}
-      <div class="card">
-        <img src="{{ link.avatar }}" class="card-avatar" alt="{{ link.title }} Avatar">
-        <div class="card-body">
-          <h5 class="card-title">{{ link.title }}</h5>
-          <p class="card-text">{{ link.description }}</p>
-        </div>
+    <div class="link-card">
+      <img class="link-avatar" src="{{ link.avatar }}" alt="{{ link.title }}">
+      <div class="link-info">
+        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title }}</a>
+        <p class="link-description">{{ link.description }}</p>
       </div>
+    </div>
     {% endfor %}
   </div>
-
-  <!-- Right Column -->
-  <div class="col-md-6">
+  
+  <div class="links-column right">
+    <h2>友情链接</h2>
     {% for link in site.links_right %}
-      <div class="card">
-        <img src="{{ link.avatar }}" class="card-avatar" alt="{{ link.title }} Avatar">
-        <div class="card-body">
-          <h5 class="card-title">{{ link.title }}</h5>
-          <p class="card-text">{{ link.description }}</p>
-        </div>
+    <div class="link-card">
+      <img class="link-avatar" src="{{ link.avatar }}" alt="{{ link.title }}">
+      <div class="link-info">
+        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title }}</a>
+        <p class="link-description">{{ link.description }}</p>
       </div>
+    </div>
     {% endfor %}
   </div>
 </div>
