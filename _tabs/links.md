@@ -1,5 +1,6 @@
 ---
 layout: links
-icon: fa-solid fa-paperclip
+title: Links
+icon: fas fa-link
 order: 5
 ---

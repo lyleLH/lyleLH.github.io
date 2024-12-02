@@ -168,6 +168,7 @@ defaults:
 
 sass:
   style: compressed
+  sass_dir: _sass
 
 compress_html:
   clippings: all
@@ -210,10 +211,10 @@ plugins:
 
 
 links_left:
-  - title: 友链名称1
-    url: https://example.com/link1
-    description: 这是友链1的描述。
-    avatar: https://blog.03k.org/favicon.ico
+  - title: "Full Stack Open Course"
+    url: "https://fullstackopen.com/"
+    description: "Modern web development with JavaScript"
+    avatar: "https://fullstackopen.com/static/favicon.ico"
   - title: 友链名称2
     url: https://example.com/link2
     description: 这是友链2的描述。
